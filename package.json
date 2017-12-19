@@ -1,0 +1,20 @@
+{
+  "name": "band-graph",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "description": "Represent bands (and potentially other things) as a directed graph",
+  "main": "index.js",
+  "repository": "https://github.com/sebastianfrelle/graph.git",
+  "author": "sebastian.frelle@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1"
+  },
+  "dependencies": {}
+}
